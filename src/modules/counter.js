@@ -23,7 +23,6 @@ export default function reducer(state = initState, action) {
                 count: state.count + 1
             }
         case ON_SET_VAL1:
-            const num1 = Number.parseFloat(action.value)
             return {
                 ...state,
                 value1: action.value
