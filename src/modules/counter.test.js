@@ -32,7 +32,7 @@ test(
         const state = reducer(initState, {type: ON_SET_VAL1, value: '1.12'})
         expect(state).toStrictEqual({
             ...initState,
-            value1: 1.12
+            value1: '1.12'
         })
     }
 )
@@ -44,7 +44,7 @@ test(
         const state = reducer(initState, {type: ON_SET_VAL2, value: '2.24'})
         expect(state).toStrictEqual({
             ...initState,
-            value2: 2.24
+            value2: '2.24'
         })
     }
 )

@@ -37,12 +37,12 @@ export function Calculator({_useDispatch = useDispatch, _useSelector = useSelect
                 <Button variant={'outline-secondary'} className={'flex-grow-1 m-1'}
                         onClick={() => dispatch({type: ON_ADD})}>
                     <FaPlus/>
-                    <span className={'pl-2'}>Add</span>
+                    Add
                 </Button>
                 <Button variant={'outline-secondary'} className={'flex-grow-1 m-1'}
                         onClick={() => dispatch({type: ON_SUB})}>
                     <FaMinus/>
-                    <span>Subtract</span>
+                    Subtract
                 </Button>
                 <Button variant={'outline-secondary'} className={'flex-grow-1 m-1'}
                         onClick={() => dispatch({type: ON_MULTI})}>

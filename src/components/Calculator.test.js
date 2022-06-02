@@ -49,7 +49,7 @@ test(
         render(<Calculator _useDispatch={() => dispatch} _useSelector={() => {
         }}/>)
 
-        const button = screen.getByText("Add");
+        const button = screen.getByText("Add")
         expect(button.tagName).toBe("BUTTON");
 
         userEvent.click(button);
